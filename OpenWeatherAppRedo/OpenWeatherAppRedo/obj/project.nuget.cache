@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CkTEbek+CPcTGhRuwMZv9ZsJvsrJBhbtykhaDHQH38uc4Mnz5IsCWbvAAqimcBqD3lLHUlZdMyUeYpjEUs8pkw==",
+  "dgSpecHash": "8uZBWOvQNU5Owuno4O2fNLVuOTN8Y77iuO2fmU+1DfjP8P6mtZOiVPr2Ia5Bv3yqYaEgVG2pGEtGSXpegm2BAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Desktop\\repos3\\OpenWeatherAppREDO\\OpenWeatherAppRedo\\OpenWeatherAppRedo\\OpenWeatherAppRedo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
