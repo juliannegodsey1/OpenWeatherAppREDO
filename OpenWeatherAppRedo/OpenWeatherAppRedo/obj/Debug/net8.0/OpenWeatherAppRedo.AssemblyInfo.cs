@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenWeatherAppRedo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee85a9b8530787246b95ebe970ca2bb98df454d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b89c610dbc48e85cfea5aab64c43523ea0144dca")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenWeatherAppRedo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenWeatherAppRedo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

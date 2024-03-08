@@ -15,12 +15,21 @@ namespace OpenWeatherAppREDO
             Console.WriteLine("Please enter your API Key:");
             var key = Console.ReadLine();
 
-            Console.WriteLine("What city would you like to check the weather?");
-            var city = Console.ReadLine();
+            Console.WriteLine("What zipcode would you like to check the weather for?");
+            var zipCode = Console.ReadLine();
 
-            var weatherURL = $"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={key}&units=imperial";
+            var weatherURL = $"https://api.openweathermap.org/data/2.5/weather?zip={zipCode}&appid={key}&units=imperial";
 
             var response = client.GetStringAsync(weatherURL).Result;
+
+            JObject formattedResponse = JObject.Parse(response);
+            var weather = formattedResponse.GetValue("main").ToString();
+            var temp = JObject.Parse(weather).GetValue("temp");
+
+
+            Console.WriteLine($"The temperature in {zipCode} is {temp} degrees Fahrenheit.");
+
+
 
 
 
